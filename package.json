@@ -1,0 +1,24 @@
+{
+  "name": "academygram",
+  "version": "1.0.0",
+  "description": "Copia de insagram",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zefe/academygram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zefe/academygram/issues"
+  },
+  "homepage": "https://github.com/zefe/academygram#readme"
+}

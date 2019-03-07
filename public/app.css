@@ -1,0 +1,111 @@
+
+body{
+	background-color: #fafafa;
+	color: #125688;
+	font-family: 'Montserrat';
+
+}
+span{
+  color: black;
+}
+.btn{
+  background: #00acc1 ;
+}
+.btn:hover {
+  background: darkcyan;
+}
+#main-container {
+	margin: 80px auto;
+}
+
+.avatar{
+	max-width: 100%;
+	width: 200px;
+     height: 200px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+.avatar-edu{
+	max-width: 100%;
+	width: 150px;
+     height: 150px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+.padinT{
+	margin-top: 50px;
+}
+
+.site-footer{
+	font-size: 14px;
+}
+
+.sociales, .contenido{
+	background-color: white;
+	border: 1px solid #edeeee;
+	border-radius: 3px;
+	padding: 15px;
+	text-align: center;
+}
+
+.sociales img {
+	padding-left: 25px;
+}
+
+.servicios{
+	background-color: none;
+	border-radius: 3px;
+	padding: 15px;
+	text-align: center;
+}
+.servicios .btn{
+  width: 200px;
+  background: #00acc1 ;
+}
+.servicios .btn{
+	border: 3px solid white;
+}
+
+
+.zefe-box .zefetorres{
+	font-family: 'Oleo Script';
+	font-style: 42px;
+}
+.zefetorres{
+	font-family: 'Oleo Script';
+	font-style: 42px;
+}
+.contint{
+	width: 80%;
+	margin: 0 auto;
+}
+.contint p{
+	font-family: 'Montserrat';
+	/*color: #a5a7aa; Open Sans*/
+	color: #000000;
+	font-size: 20px;
+}
+.conten{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: white;
+	border: 1px solid #edeeee;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.contenido{	
+	background-color: white;
+	border: 1px solid #edeeee;
+}
+.card-title{
+	background: #00acc1 ;
+}
