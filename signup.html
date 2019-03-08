@@ -7,99 +7,7 @@
   <meta charset="utf-8">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script|Source+Sans+Pro|Sacramento' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />  
-  	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-  <style>
-    
-body{	
-	background: #fafafa;
-	color: #125688;
-	font-family: 'Montserrat';
-
-}
-span{
-  color: black;
-}
-
-.main-container {
-	padding-top: 10px;
-	width: 100%;
-	height: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.container {
-	display: flex;
-	width: 935px;
-	height: 768px;
-}
-
-.hero {
-	width: 454px;
-	height: 618px;
-	margin-top: 70px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.form h3{
-	font-family: 'Oleo Script';
-	font-size: 42px;
-	text-align: center;
-}
-
-.form-container {
-	width: 350px;
-	height: 564px;
-	margin: 20px;
-	border: 1px solid gainsboro;
-}
-
-.form {
-	background: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.form button {
-	width: 268px;
-	height: 32px;
-	background: #3897f0;
-	color: white;
-	border: #3897f0;
-	border-radius: 4px;
-	
-}
-.form input {
-	width: 258px;
-	height: 32px;
-	margin: 10px 0;
-	border-radius: 4px;
-	text-shadow: none;
-	background: #fafafa;
-}
-.form p {
-	font-size: 14px;
-	text-align: center;
-}
-
-footer{
-	margin-top: 60px;
-	height: 5%;
-}
-
-.site-footer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 14px;
-}
-
-
-  </style>
+	<link rel="stylesheet" href="http://localhost:8000/public/app.css"> 
 </head>
 <body>	
 	<section class="main-container">
@@ -108,9 +16,9 @@ footer{
         		<img src="http://localhost:8000/public/phone.jpg"  alt="">
 			</div>
 			<div class="form-container">
-				<div class="form">
+				<div class="form">					
 					<h3>Instagram</h3>
-					<h5>Regístrate para ver fotos y videos de tus amigos.</h5>
+					<h2>Regístrate para ver fotos y videos de tus amigos.</h2>
 					<button>Iniciar sesión con Facebook</button>
 					<hr>
 					<input type="text" placeholder="Número de celular o correo electrónico">
@@ -120,10 +28,12 @@ footer{
 					<button>Iniciar sesión con Facebook</button>
 					<p>
 						Al registrarte, aceptas nuestras Condiciones, la Política de datos y la Política de cookies.
-					</p>					
-				</div>
-
-			</div>      
+					</p>			
+				</div>				
+				<div class="form-footer">
+						<p>Tienes una cuenta? <a href="http://instagram.com">Inicia sesion</a> </p>
+				</div>	
+			</div>
 		</div>
 	</section>
 
